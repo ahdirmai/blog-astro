@@ -15,5 +15,7 @@ export default defineConfig({
   // adapter: vercel()npx astro add vercel
   output: 'server',
 
-  adapter: vercel()
+  adapter: vercel({
+    imageService: true,
+  })
 });
