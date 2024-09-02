@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 Hello, Ridha Here..</h1>
+			<p>
+		Welcome to my personal blog. I'm a passionate <strong>Programmer</strong>, <strong>Photographer</strong>, and <strong>Data Analyst</strong> from Banjarmasin, South Borneo, Indonesia.
+			</p>
+			<p>
+				Currently, I'm in my final year at Lambung Mangkurat University, majoring in Computer Science. With a strong adaptability to new environments, I excel at analyzing problems and finding solutions within my capabilities. Beyond programming, I have a deep interest in photography and data analysis, and I'm always eager to learn new skills.
+			</p>
+			<p>
+				Feel free to explore my blog, where I share insights on programming, web development, and more. If you're interested in working together or just want to connect, don't hesitate to
+		</main>
+		<Footer />
+	</body>
+</html>
